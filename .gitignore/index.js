@@ -4,7 +4,7 @@ const fs = require('fs')
 var prefix = "/"
 
 
-client.login("process.env.TOKEN");
+client.login(process.env.TOKEN);
 
 client.on('ready', function() {
     console.log("Je regarde un élément")
